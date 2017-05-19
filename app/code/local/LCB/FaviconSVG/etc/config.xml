@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_FaviconSVG>
+            <version>1.0.0</version>
+        </LCB_FaviconSVG>
+    </modules>
+    <global>
+        <models>
+            <faviconsvg>
+                <class>LCB_FaviconSVG_Model</class>
+            </faviconsvg>
+            <adminhtml>
+                <rewrite>
+                    <system_config_backend_image_favicon>LCB_FaviconSVG_Model_Adminhtml_System_Config_Backend_Image_Favicon</system_config_backend_image_favicon>
+                </rewrite>
+            </adminhtml>
+        </models>
+    </global>
+</config> 
