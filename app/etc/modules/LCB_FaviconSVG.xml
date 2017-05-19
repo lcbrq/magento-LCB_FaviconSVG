@@ -4,6 +4,9 @@
         <LCB_FaviconSVG>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+            </depends>
         </LCB_FaviconSVG>
     </modules>
 </config>
